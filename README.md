@@ -7,7 +7,7 @@ To run the experiments, navigate to project directory and execute this from comm
 python Main.py --fedavg --numrounds 10 --numclients 10 -- candidateclientnum 5 --nummalicious 7 --numeval 2 --f1_threshold 0.9
 ```
 
-Multiple strategies available are:<br />
+Multiple strategies available are:
 * Fed-Avg
 * TopF1 (called as F1S-FL in the paper)
 * Centralized
